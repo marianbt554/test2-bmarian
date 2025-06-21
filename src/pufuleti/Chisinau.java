@@ -1,11 +1,16 @@
 package pufuleti;
 
-public class Chisinau extends Camion{
+public class Chisinau {
 
-    static Chisinau magMetro = new Chisinau();
-    static Chisinau magNr1 = new Chisinau();
-    static Chisinau magLinella = new Chisinau();
+    public String getMetro(){
+        return "Metro";
+    }
 
+    public String getNr1(){
+        return "Nr1";
+    }
 
-
+    public String getLinella(){
+        return "Linella";
+    }
 }

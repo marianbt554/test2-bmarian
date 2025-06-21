@@ -1,15 +1,8 @@
 package pufuleti;
 
-public class Camion extends Fabrica{
+public class Camion {
 
-    public void transport(){
-        System.out.println("Transportam pufuleti");
+    public void transport(Pufuleti p, String shop){
+        System.out.println("Transporting " + p.getName() + "to" + shop);
     }
-
-    Camion camion = new Camion();
-
-    String transportObj = camion.getCristinel();
-    String transportObj2 = camion.getCristinuta();
-
-
 }

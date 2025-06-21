@@ -1,17 +1,16 @@
 package pufuleti;
 
-public class Fabrica {
+public class Fabrica  {
 
-    final private String cristinel = "Pufuleti Cristinel";
-    final private String cristinuta = "Pufuleti crisitnuta";
+    public Pufuleti produceCristinel(){
 
-    public String getCristinel() {
-        return cristinel;
+        System.out.println("Producing Cristinel");
+        return new Pufuleti("Cristinel");
     }
 
-    public String getCristinuta() {
-        return cristinuta;
+    public Pufuleti produceCristinuta(){
+
+        System.out.println("Producing Cristinuta");
+        return new Pufuleti("Cristinuta");
     }
-
-
 }
